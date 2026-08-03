@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CI.Connector.OpenBanking.Domain/CI.Connector.OpenBanking.Domain.csproj" />
+    <Project Path="src/CI.Connector.OpenBanking.Core/CI.Connector.OpenBanking.Core.csproj" />
+    <Project Path="src/CI.Connector.OpenBanking.Infrastructure/CI.Connector.OpenBanking.Infrastructure.csproj" />
+    <Project Path="src/CI.Connector.OpenBanking.API/CI.Connector.OpenBanking.API.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CI.Connector.OpenBanking.Tests/CI.Connector.OpenBanking.Tests.csproj" />
+  </Folder>
+</Solution>

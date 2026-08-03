@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CI.Connector.OpenBanking.Domain\CI.Connector.OpenBanking.Domain.csproj" />
+    <PackageReference Include="CI.Kernel" Version="1.2.0" />
+  </ItemGroup>
+</Project>

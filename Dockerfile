@@ -3,7 +3,7 @@ ARG DOTNET_VERSION=10.0
 FROM mcr.microsoft.com/dotnet/sdk:${DOTNET_VERSION} AS build
 WORKDIR /src
 
-ARG NUGET_AUTH_TOKEN
+ARG BAGET_URL
 ARG API_PROJECT=src/CI.Connector.OpenBanking.API/CI.Connector.OpenBanking.API.csproj
 
 COPY nuget.config .
